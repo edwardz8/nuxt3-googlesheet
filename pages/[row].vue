@@ -3,6 +3,12 @@ import { singleRow } from '@/composables/useSheet'
 
 const route = useRoute()
 
+/* 
+route.params.id returns a string, so to convert that to number we use +
+The ids start from 0, but we get rows by row and colums.
+if first row isn't id -- it's titles in this case -- so +1 is added to row id
+*/
+
 const { data } = await singleRow(+route.params.row + 1)
 </script>
 
