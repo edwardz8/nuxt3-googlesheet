@@ -7,3 +7,5 @@ node_modules
 .env
 dist
 secrets.json
+secrets2.json 
+secrets.js 
