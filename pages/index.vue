@@ -59,7 +59,7 @@ th, td{
   border-right: 1px solid #444;
 }
 img {
-    max-width: 150px;
+    max-width: 100px;
     border-radius: 8px;
 }
 </style>
