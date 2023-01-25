@@ -12,8 +12,7 @@ result.value.splice(0, 1)
 
 <template>
     <div class="container">
-
-      <table >
+      <table>
         <thead>
         <tr>
           <th v-for="col in headings" :key="col" v-html="col"></th>
@@ -34,30 +33,35 @@ result.value.splice(0, 1)
 </template>
 
 <style>
-.container{
+html, body {
+  background-color: lightslategray;
+}
+
+.container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   font-family: sans-serif;
 }
-table{
+
+table {
   border-collapse: collapse;
-  border-top: 1px solid #444;
-  
 }
-thead{
+
+thead {
   background: #f0f0f0;
   text-transform: uppercase;
 }
+
 tr{
   border-bottom: 1px solid #444;
 }
-th, td{
-  padding: 8px 10px;
+
+th, td {
+  padding: 4px 8px;
   border-left: 1px solid #444;
   border-right: 1px solid #444;
 }
+
 img {
     max-width: 100px;
     border-radius: 8px;
