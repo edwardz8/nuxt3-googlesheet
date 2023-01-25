@@ -1,4 +1,4 @@
-let sheetRange = "Sheet1!A1:D3";
+let sheetRange = "Sheet1!A1:D200";
 
 const getVars = () => {
     const SPREAD_SHEET_ID = useRuntimeConfig().public.SPREAD_SHEET_ID;
