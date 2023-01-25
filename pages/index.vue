@@ -22,8 +22,8 @@ result.value.splice(0, 1)
         </thead>
         <tbody>
         <tr v-for="col in result" :key="col" >
-          <td >{{col[0]}}</td>
-          <td >{{col[1]}}</td>
+          <td>{{col[0]}}</td>
+          <td>{{col[1]}}</td>
           <td v-html="col[2]"></td>
           <td><img :src="col[3]" alt=""></td>
           <td> <NuxtLink :to="`/${col[0]}`">View</NuxtLink> </td>
